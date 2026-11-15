@@ -11,11 +11,15 @@
 
 <br/>
 
-<!-- BADGES INFO -->
+<!-- TOMBOL LIVE DEMO & BADGES INFO -->
 <p align="center">
+  <a href="LINK_LIVE_DEMO_KAMU">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-22C55E?style=for-the-badge" alt="Live Demo" />
+  </a>
+  &nbsp;
   <img src="https://img.shields.io/badge/Established-2021-16A34A?style=for-the-badge" alt="Established 2021" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Location-Surabaya%2C_Indonesia-22C55E?style=for-the-badge" alt="Location Surabaya" />
+  <img src="https://img.shields.io/badge/Location-Surabaya%2C_Indonesia-4ADE80?style=for-the-badge" alt="Location Surabaya" />
 </p>
 
 <br/>
@@ -73,14 +77,14 @@
 
 ### 🚀 Installation & Project Guide
 
-<!-- TOMBOL KLIK BUKA-TUTUP SEPERTI KERTAS PANDUAN -->
+<!-- TOMBOL KLIK BUKA-TUTUP -->
 <details>
-  <summary><b>📄 Klik di sini untuk membuka Panduan Instalasi Lokal & Struktur Folder</b></summary>
+  <summary><b>📄 How to Run and Cloning</b></summary>
   <br/>
 
   <blockquote>
-    <h4>📋 Panduan Menjalankan Proyek (Laragon / XAMPP)</h4>
-    <p><i>Pastikan <b>PHP</b>, <b>Composer</b>, dan <b>MySQL</b> sudah terpasang di komputer Anda.</i></p>
+    <h4>📋 Local Setup Guide (Laragon / XAMPP)</h4>
+    <p><i>Make sure <b>PHP</b>, <b>Composer</b>, and <b>MySQL</b> are installed on your computer.</i></p>
 
     1. Clone Repository
     git clone https://github.com/syfrzkngl/Zetoro-Janaloka-Technology-personal.git
@@ -89,24 +93,24 @@
     2. Install Dependencies
     composer install
 
-    3. Konfigurasi File .env
+    3. Configure .env File
     cp .env.example .env
 
-    Atur koneksi database MySQL di dalam file .env:
+    Configure your MySQL database connection inside the .env file:
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
-    DB_DATABASE=nama_database_kamu
+    DB_DATABASE=your_database_name
     DB_USERNAME=root
     DB_PASSWORD=
 
-    4. Generate Key & Migrasi Database
+    4. Generate Key & Run Migrations
     php artisan key:generate
     php artisan migrate
 
-    5. Jalankan Server Lokal
+    5. Start Local Server
     php artisan serve
-    (Buka http://127.0.0.1:8000 di browser)
+    (Open http://127.0.0.1:8000 in your browser)
 
     --------------------------------------------------
 
