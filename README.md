@@ -1,135 +1,136 @@
-# Zetoro Janaloka Teknologi - Company Website
+<div align="center">
 
-Official landing page and company profile website for **CV. Zetoro Janaloka Teknologi**, a company providing technology solutions, multimedia services, and business consulting, established in 2021.
+<!-- ANIMASI JUDUL PERUSAHAAN -->
+<a href="https://github.com/syfrzkngl/Zetoro-Janaloka-Technology-personal">
+  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=34&duration=3200&pause=1200&color=22C55E&center=true&vCenter=true&width=680&height=70&lines=Zetoro+Janaloka+Teknologi;Technology+%E2%80%A2+Multimedia+%E2%80%A2+Consulting" alt="Zetoro Janaloka Teknologi" />
+</a>
 
----
+## Company Profile & Official Landing Page
 
-## 🚀 Key Features
+> *"Official digital profile and company website for **CV. Zetoro Janaloka Teknologi** — established in 2021, providing technology solutions, multimedia services, and business consulting."*
 
-- **Responsive Landing Page**: Built with Bootstrap 5 for a seamless experience across both mobile and desktop devices.
-- **Interactive UI**: Includes scroll-based animations using AOS (*Animate On Scroll*) and dynamic navigation with active state highlighting.
-- **Integrated Contact Management**: Interactive contact form connected to a local database, with an option to send inquiries directly via WhatsApp.
-- **Portfolio & Client Slider**: Dynamically showcases partners, clients, and completed projects.
-- **Integrated Location Map**: Uses Google Maps Embed to display the company's office location at Maspion Square, Surabaya.
+<br/>
 
----
+<!-- BADGES INFO -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Established-2021-16A34A?style=for-the-badge" alt="Established 2021" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Location-Surabaya%2C_Indonesia-22C55E?style=for-the-badge" alt="Location Surabaya" />
+</p>
 
-## 🛠️ Tech Stack & Dependencies
+<br/>
 
-### Backend & Database
+<!-- TECH STACK (LOGO SAJA) -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=laravel,php,mysql,bootstrap,html,css,js,git,github" alt="Tech Stack Logos" />
+</p>
 
-- **Framework**: Laravel 10 / 11
-- **Database**: MySQL
-- **Database Table**: `kontak` for storing incoming contact messages
-
-### Frontend
-
-- **CSS Framework**: Bootstrap v5.3.2
-- **Icons**: Font Awesome v6.5.0 & Bootstrap Icons v1.11.3
-- **Animations**: AOS (Animate On Scroll) v2.3.1
-- **Alerts**: SweetAlert2 for successful contact form notifications
+</div>
 
 ---
 
-## 💻 Local Installation & Setup
+### ✨ Key Features
 
-Make sure you have **PHP**, **Composer**, and a local server environment such as **Laragon** or **XAMPP** installed on your computer.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/syfrzkngl/Zetoro-Janaloka-Technology-personal.git
-cd Zetoro-Janaloka-Technology-individual
-````
-
-### 2. Install Composer Dependencies
-
-```bash
-composer install
-```
-
-### 3. Configure the Environment File
-
-Copy `.env.example` to `.env`:
-
-```bash
-cp .env.example .env
-```
-
-Open the `.env` file and configure your MySQL database settings:
-
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-### 4. Generate the Application Key
-
-```bash
-php artisan key:generate
-```
-
-### 5. Run Database Migrations
-
-Create a new MySQL database with the same name specified in your `.env` file, then run:
-
-```bash
-php artisan migrate
-```
-
-This will create the required database tables, including the `kontak` table for storing contact form submissions.
-
-### 6. Start the Local Development Server
-
-```bash
-php artisan serve
-```
-
-Then open the following URL in your browser:
-
-```text
-http://127.0.0.1:8000
-```
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📱 Responsive & Interactive UI</h4>
+      <ul>
+        <li>Built with <b>Bootstrap v5.3.2</b> for seamless mobile & desktop views</li>
+        <li>Scroll-based animations powered by <b>AOS (Animate On Scroll)</b></li>
+        <li>Dynamic navigation bar with active state highlighting</li>
+        <li>Styled with <b>Font Awesome</b> & <b>Bootstrap Icons</b></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📩 Integrated Contact Management</h4>
+      <ul>
+        <li>Interactive contact form connected to MySQL (<code>kontak</code> table)</li>
+        <li>Instant inquiry forwarding option directly via <b>WhatsApp</b></li>
+        <li>Clean submission alerts powered by <b>SweetAlert2</b></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🖼️ Portfolio & Client Showcase</h4>
+      <ul>
+        <li>Dynamic slider highlighting company partners & clients</li>
+        <li>Structured showcase of completed technology & multimedia projects</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📍 Integrated Office Location</h4>
+      <ul>
+        <li>Embedded <b>Google Maps</b> for direct navigation</li>
+        <li>Displays physical office location at <b>Maspion Square, Surabaya</b></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📂 Main Frontend Structure
+### 🚀 Installation & Project Guide
 
-```text
-resources/
-└── views/
-    └── beranda.blade.php
-        └── Main company homepage
+<!-- TOMBOL KLIK BUKA-TUTUP SEPERTI KERTAS PANDUAN -->
+<details>
+  <summary><b>📄 Klik di sini untuk membuka Panduan Instalasi Lokal & Struktur Folder</b></summary>
+  <br/>
 
-public/
-├── css/
-│   └── beranda.css
-│       └── Custom stylesheet
-│
-└── img/
-    ├── Company logo
-    ├── Owner photo
-    ├── Client logos
-    └── Portfolio images
-```
+  <blockquote>
+    <h4>📋 Panduan Menjalankan Proyek (Laragon / XAMPP)</h4>
+    <p><i>Pastikan <b>PHP</b>, <b>Composer</b>, dan <b>MySQL</b> sudah terpasang di komputer Anda.</i></p>
+
+    1. Clone Repository
+    git clone https://github.com/syfrzkngl/Zetoro-Janaloka-Technology-personal.git
+    cd Zetoro-Janaloka-Technology-individual
+
+    2. Install Dependencies
+    composer install
+
+    3. Konfigurasi File .env
+    cp .env.example .env
+
+    Atur koneksi database MySQL di dalam file .env:
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=nama_database_kamu
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+    4. Generate Key & Migrasi Database
+    php artisan key:generate
+    php artisan migrate
+
+    5. Jalankan Server Lokal
+    php artisan serve
+    (Buka http://127.0.0.1:8000 di browser)
+
+    --------------------------------------------------
+
+    📂 Main Frontend Structure:
+    resources/
+    └── views/
+        └── beranda.blade.php      # Main company homepage
+
+    public/
+    ├── css/
+    │   └── beranda.css            # Custom stylesheet
+    └── img/                       # Company logo, owner photo, client & portfolio images
+  </blockquote>
+
+</details>
 
 ---
 
-## 🏢 About Zetoro Janaloka Teknologi
+### 🏢 About Zetoro Janaloka Teknologi
 
-**CV. Zetoro Janaloka Teknologi** is a technology-focused company established in 2021, providing technology solutions, multimedia services, and business consulting.
-
-This website serves as the company's digital profile and provides information about its services, portfolio, clients, and contact information.
+**CV. Zetoro Janaloka Teknologi** is a technology-focused company established in 2021, providing technology solutions, multimedia services, and business consulting. This website serves as the company's official digital profile showcasing its services, portfolio, clients, and contact channels.
 
 ---
 
-## 📝 License
+### 📄 License
 
 © 2025 Zetoro Janaloka Teknologi. All rights reserved.
-
-```
-```
